@@ -1,0 +1,68 @@
+く?xml version="1.0" encoding="utf-8"?>'
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns: android="http://schemas and xmlns: app="
+    http://schemas.android.com/apk/res-auto"
+    xmlns: tools="http://schemas.android.com/tools"
+    android: layout_width=''match_parent" android: layout_ height="match_parent"
+    android:orientation="vertical" tools: context=".LogginActivity">
+
+<TextView android: id="@+id/txtl"
+android: layout_width=''wrap_content"
+android: layout_height="wrap_content"
+android: layout_marginStart="156dp"
+    android: layout_margirLeft="156dp"
+    android: layout_marginTop="204dp"
+    android: text="로그인 하기"
+    android: textSize="20dp"
+    android:textStyle="bold"
+    app: layout_constraintStart_toStartof="parent"
+    app: layout_constraintTop_toTop0f="parent"
+<EditText android:id="@+id/edtl"
+android:layout_widith="wrap_conteht"
+android: layout_height="wrap_content"
+android: layout_margirStart="12dp"
+android: layout_marginLeft="12dp"
+android: layout_margiinTop="36dp"
+    android:ems="10"
+android: inputType="textPersonName"
+app: layout_constraintStart_toEndOf="@+id/textView5"
+app:layout_constraintTop_toBottomOf="@+id/txt1" />
+    ditText android:id="@+id/edt2"
+    android:layout_wicIth="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_maIrginStart="12dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="36dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    app: layout_constraintstart_toEndOf="@+id/textView6"
+    app:layout_constraintTop_toBottcmOf="@+id/edtl" />
+    xtView android:id="@+id/textView5"
+    android: layout_width="wrap_content"
+    android:layout_height="wrap_content".
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_miarginTop="48dp".
+    android: text="사용자명
+    app: layout_constraintStart_toStaartOf="parent"
+    app: layout_constraintTop_toBottomOf="@+id/txt1" />
+<TextView android: id="@+id/textView6"
+android: layout_width="wrap_content"
+android: layout_height="wrap_content"
+android: layout_margirStart="16dp"
+android layout_marginLeft="16dp"
+android:layout_narginTop="64dp"
+android:text="비밀번호
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/textView5" />
+<Button android:id="@+id/btnl"
+android:layout_wicIth="wrap_content"
+android: layout_height="80dp"
+android:layout_maarginStart="20dp"
+android: layout_marginLeft="20dp"
+android:layout_marginTop="296dp"
+android:backgroundTint="@color/cardview_dark_background"
+android:téxt="로그인"
+app:layout_constraintStart_toEndOf="@+id/edt2"
+app:layout_corstraintTop_toropOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout>
